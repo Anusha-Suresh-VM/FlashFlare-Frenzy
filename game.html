@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash | Horizontal</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" type="image/jpg" href="bulb.jpg">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="input-field">
+
+        <input type="number" placeholder="ROWS" min="1" id="rows">
+        
+        <select name="color" id="color">
+            <option value="color">COLOR</option>
+            <option value="green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Violet">Violet</option>
+            
+        </select>
+        <button id="flash-button" onclick="flashBulb()">Start</button>
+        <button onclick="stopFlashing()">Stop</button>
+        </div>
+        
+        <div class="output-field" id="output" >
+            
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
